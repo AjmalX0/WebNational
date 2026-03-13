@@ -19,7 +19,7 @@ class VenueSection extends React.Component {
                 College Of Engineering Kallooppara
               </h3>
               <p className="text-gray-300 mb-4">
-                Experience NCICPS'25 with modern facilities and ample space, it's the perfect location for networking and learning.
+                Experience NCICPS'26 with modern facilities and ample space, it's the perfect location for networking and learning.
               </p>
               <div className="flex items-center text-gray-300 mb-4">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2 text-[#40E0D0]" viewBox="0 0 20 20" fill="currentColor">

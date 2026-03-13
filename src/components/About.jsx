@@ -74,11 +74,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] list-disc list-inside"
       >
-        <li>Paper Submission Deadline: 21/01/2025</li>
-        <li>Notification of acceptance: 14/02/2025</li>
-        <li>Camera-Ready paper submission: 18/02/2025</li>
-        <li>Registration for conference: 18/02/2025</li>
-        <li>Registration closes on: 20/02/2025</li>
+        <li>Paper Submission Deadline: 23/03/2026</li>
+        <li>Notification of acceptance: 10/04/2026</li>
+        <li>Camera-Ready paper submission: 17/04/2026</li>
+        <li>Registration for conference: 18/04/2026</li>
+        {/* <li>Registration closes on: 20/02/2026</li>                              */}
       </motion.ul>
 
       <motion.div

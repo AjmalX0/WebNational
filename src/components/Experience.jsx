@@ -62,7 +62,7 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>NCICPS 25</p>
+        <p className={styles.sectionSubText}>NCICPS 26</p>
             <h2 className="text-4xl font-bold text-white mb-8">
             Conference Tracks
           </h2>

@@ -4,8 +4,8 @@ class Contact extends React.Component {
   render() {
     const contacts = [
       { 
-        name: 'Prof. Jaison James', 
-        phone: '+91 9447659175',
+        name: 'Sri.Yasim Khan M', 
+        phone: '+91 9447384678',
         role: 'Conference Chair'
       },
       { 

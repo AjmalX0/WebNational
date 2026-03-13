@@ -1,9 +1,11 @@
 "use client"
 
 import { useState } from "react"
+import { useNavigate } from "react-router-dom"
 import { X } from "lucide-react"
 
 export default function Hero() {
+  const navigate = useNavigate()
   const [showPaperDetails, setShowPaperDetails] = useState(false)
   const [showConclaveDetails, setShowConclaveDetails] = useState(false)
   const [showWorkshopDetails, setShowWorkshopDetails] = useState(false)
@@ -11,8 +13,9 @@ export default function Hero() {
   const [selectedImage, setSelectedImage] = useState(null)
 
   const images = [
-    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20250213-WA0023.jpg-aiCcdaE7sGh1cpNyxbd7bG7aLzZIyo.jpeg",
-    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG-20250213-WA0022.jpg-ErxELmiEn9nEQErRRVmRQsJk82eQxs.jpeg",
+    // load the images from the public folder
+      "/Page 1.png",
+      "/Page 2.png"
   ]
 
   const toggleDetails = (section) => {
@@ -51,17 +54,17 @@ export default function Hero() {
           {/* Left Column */}
           <div className="space-y-6">
             <div>
-              <h2 className="text-3xl font-bold mb-2">NCICPS 25</h2>
+              <h2 className="text-3xl font-bold mb-2">NCICPS 26</h2>
               <h1 className="text-4xl font-bold leading-tight mb-4">
-                2nd National Conference on Intelligent Cyber Physical Systems
+                3rd National Conference on Intelligent Cyber Physical Systems
                 <br />
-                <span className="text-[#00B3B3]">27th February - 1st March 2025</span>
+                <span className="text-[#00B3B3]">06th May - 07th May 2026</span>
               </h1>
             </div>
                         {/* About Us Section */}
                         <div className="space-y-2">
               <p className="text-gray-300">
-                The 2nd National Conference on Intelligent Cyber Physical Systems (NCICPS'25) is a premier gathering of
+                The 3rd National Conference on Intelligent Cyber Physical Systems (NCICPS'26) is a premier gathering of
                 researchers, practitioners, and innovators in the field of cyber-physical systems and their intelligent
                 applications.
               </p>
@@ -228,6 +231,16 @@ export default function Hero() {
                   </p>
                 </div>
               )}
+            </div>
+
+            {/* Last Year Event Button */}
+            <div className="pt-8 border-t border-[#00B3B3] mt-8">
+              <button
+                onClick={() => navigate("/ncicps2025")}
+                className="w-full bg-gradient-to-r from-[#00B3B3] to-[#009999] hover:opacity-90 text-white font-bold py-3 px-6 rounded transition-all text-lg"
+              >
+                📋 Details of NCICPS 2025 Event
+              </button>
             </div>
           </div>
 

@@ -94,7 +94,7 @@ const experiences = [
       "Smart Grid",
       "Electric Vehicles",
       "Edge Computing",
-      "Smart Energy System",
+      "Smart Energy & Control Systems",
     ],
   },
     {
@@ -103,12 +103,11 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Track II",
     points: [
-      "AI",
+      "Artificial Intelligence",
       "Machine Learning",
       "Computer Vision",
       "Data Science",
-      "Fuzzy Logic",
-      "Evolutionary Computation",
+      "Generative AI",
     ],
   },
   {
@@ -118,9 +117,9 @@ const experiences = [
     date: "Track III",
     points: [
       "Cyber Security",
-      "Cyber Forensics",
+      "Digital Forensics",
       "Ethical Hacking",
-      "Block Chain",
+      "Block Chain Security",
       "VAPT",
       "Cloud Security",
     ],
@@ -152,14 +151,14 @@ const projects = [
 ];
 
 const personalInfo = {
-  name: "NCICPS 25",
-  fullName: "NCICPS 25",
+  name: "NCICPS 26",
+  fullName: "NCICPS 26",
   email: "raishridhar619@gmail.com",
   role: "Software Developer",
-  about: `NCICPS'25 invites full paper submissions in various tracks. All accepted papers will be published in the conference proceedings, and selected papers will be published in the International Journal of Science Technology and Innovation (IJSTI).
+  about: `NCICPS'26 invites full paper submissions in various tracks. All accepted papers will be published in the conference proceedings, and selected papers will be published in the International Journal of Science Technology and Innovation (IJSTI).
 
 We welcome innovative research, case studies, and practical applications in the fields of Intelligent Cyber Physical Systems, Computational Intelligence, and Cyber Security & Forensics.!`,
-  projectsIntro: `The 2nd National Conference on Intelligent Cyber Physical Systems (NCICPS'25) is a premier gathering of researchers, practitioners, and innovators in the field of cyber-physical systems and their intelligent applications.
+  projectsIntro: `The 3rd National Conference on Intelligent Cyber Physical Systems (NCICPS'26) is a premier gathering of researchers, practitioners, and innovators in the field of cyber-physical systems and their intelligent applications.
 
 Join us in shaping the future of intelligent systems and their impact on our interconnected world.`,
 };
