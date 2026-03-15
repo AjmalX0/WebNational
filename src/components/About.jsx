@@ -86,14 +86,15 @@ const About = () => {
         className="mt-6 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         <p>Authors can submit papers through Microsoft CMT.</p>
-        <motion.button
+        {/*<motion.button
           className="mt-4 bg-gradient-to-r from-purple-500 to-indigo-600 text-white py-2 px-6 rounded-full font-semibold shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           onClick={handleLogin}
         >
           Login
-        </motion.button>
+        </motion.button> */}
+        <p> "The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support." </p>
       </motion.div>
 
       <div className="mt-20 flex flex-wrap gap-10">
