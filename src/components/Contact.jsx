@@ -62,6 +62,15 @@ class Contact extends React.Component {
               </div>
             ))}
           </div>
+          {/* Last Year Event Button */}
+            <div className="pt-8 border-t border-[#00B3B3] mt-8">
+              <button
+                onClick={() => navigate("/ncicps2025")}
+                className="w-full bg-gradient-to-r from-[#00B3B3] to-[#009999] hover:opacity-90 text-white font-bold py-3 px-6 rounded transition-all text-lg"
+              >
+                📋 Details of NCICPS 2025 Event
+              </button>
+            </div>
         </div>
       </section>
     );
