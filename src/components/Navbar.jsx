@@ -13,22 +13,22 @@ const registrationLinks = [
   {
     id: "paper-presentation-registration",
     title: "Paper Presentation",
-    googleFormUrl: "https://forms.gle/RBfPBWcpbdUeBiyg7", // Replace with your actual Google Form URL
+    googleFormUrl: "", // Replace with your actual Google Form URL
   },
   {
     id: "conclave-registration",
     title: "Conclave",
-    googleFormUrl: "https://forms.gle/x5uGtwXZpJhMSSeeA", // Replace with your actual Google Form URL
+    googleFormUrl: "", // Replace with your actual Google Form URL
   },
   {
     id: "workshop-registration",
     title: "Workshop",
-    googleFormUrl: "https://forms.gle/1UhpazS9LRuJPcPr7", // Replace with your actual Google Form URL
+    googleFormUrl: "", // Replace with your actual Google Form URL
   },
   {
     id: "poster-presentation-registration",
     title: "Poster Presentation",
-    googleFormUrl: "https://forms.gle/oQWTBWB28RL92csR6", // Replace with your actual Google Form URL
+    googleFormUrl: "", // Replace with your actual Google Form URL
   },
 ];
 
