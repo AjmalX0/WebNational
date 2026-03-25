@@ -96,7 +96,7 @@ export default function Hero() {
                   </button>
                   <button
                     className="bg-[#00B3B3] hover:bg-[#009999] text-white font-bold py-2 px-4 rounded"
-                    onClick={() => window.open("https://forms.gle/RBfPBWcpbdUeBiyg7", "_blank")}
+                    onClick={() => window.open("", "_blank")}
                   >
                     Registration
                   </button>
@@ -124,7 +124,7 @@ export default function Hero() {
                   </button>
                   <button
                     className="bg-[#00B3B3] hover:bg-[#009999] text-white font-bold py-2 px-4 rounded"
-                    onClick={() => window.open("https://forms.gle/x5uGtwXZpJhMSSeeA", "_blank")}
+                    onClick={() => window.open("", "_blank")}
                   >
                     Registration
                   </button>
@@ -152,7 +152,7 @@ export default function Hero() {
                   </button>
                   <button
                     className="bg-[#00B3B3] hover:bg-[#009999] text-white font-bold py-2 px-4 rounded"
-                    onClick={() => window.open("https://forms.gle/1UhpazS9LRuJPcPr7", "_blank")}
+                    onClick={() => window.open("", "_blank")}
                   >
                     Registration
                   </button>
@@ -218,7 +218,7 @@ export default function Hero() {
                   </button>
                   <button
                     className="bg-[#00B3B3] hover:bg-[#009999] text-white font-bold py-2 px-4 rounded"
-                    onClick={() => window.open("https://forms.gle/oQWTBWB28RL92csR6", "_blank")}
+                    onClick={() => window.open("", "_blank")}
                   >
                     Registration
                   </button>
