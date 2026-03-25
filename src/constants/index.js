@@ -165,7 +165,7 @@ Join us in shaping the future of intelligent systems and their impact on our int
 
 const publicUrls = {
   resume:
-    "https://drive.google.com/file/d/1_NHldQN0ZIFYLWTpNZhz3ZRKMmARYsA1/view?pli=1",
+    "https://drive.google.com/file/d/1Kchd73WbLVeOm9yG9donM9s4qiv8mX8A/view",
   socialProfiles: {
     linkedin: {
       title: "linkedin",
