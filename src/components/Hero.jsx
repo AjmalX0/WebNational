@@ -96,7 +96,7 @@ export default function Hero() {
                   </button>
                   <button
                     className="bg-[#00B3B3] hover:bg-[#009999] text-white font-bold py-2 px-4 rounded"
-                    onClick={() => window.open("", "_blank")}
+                    onClick={() => window.open("https://forms.gle/nDwpJKkCwWf7FbTi9", "_blank")}
                   >
                     Registration
                   </button>
@@ -124,7 +124,7 @@ export default function Hero() {
                   </button>
                   <button
                     className="bg-[#00B3B3] hover:bg-[#009999] text-white font-bold py-2 px-4 rounded"
-                    onClick={() => window.open("", "_blank")}
+                    onClick={() => window.open("https://forms.gle/6jYtVcX4cN1jxEBx8", "_blank")}
                   >
                     Registration
                   </button>
@@ -139,7 +139,7 @@ export default function Hero() {
               )}
             </div>
 
-            {/* Workshop Section */}
+           /* {/* Workshop Section */}
             <div className="space-y-2 py-5">
               <div className="flex justify-between items-center">
                 <p className="text-xl font-bold text-[#00B3B3]">Workshop</p>
@@ -204,6 +204,7 @@ export default function Hero() {
                 </div>
               )}
             </div>
+            */
 
             {/* Poster Presentation Section */}
             <div className="space-y-2 py-5">
@@ -218,7 +219,7 @@ export default function Hero() {
                   </button>
                   <button
                     className="bg-[#00B3B3] hover:bg-[#009999] text-white font-bold py-2 px-4 rounded"
-                    onClick={() => window.open("", "_blank")}
+                    onClick={() => window.open("https://forms.gle/97BQ72Kw6ZTgoNg36", "_blank")}
                   >
                     Registration
                   </button>
