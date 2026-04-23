@@ -139,7 +139,7 @@ export default function Hero() {
               )}
             </div>
 
-           /* {/* Workshop Section */}
+            {/* {/* Workshop Section *}
             <div className="space-y-2 py-5">
               <div className="flex justify-between items-center">
                 <p className="text-xl font-bold text-[#00B3B3]">Workshop</p>
@@ -204,7 +204,7 @@ export default function Hero() {
                 </div>
               )}
             </div>
-            */
+            */}
 
             {/* Poster Presentation Section */}
             <div className="space-y-2 py-5">
